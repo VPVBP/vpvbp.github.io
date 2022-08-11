@@ -188,7 +188,7 @@
         message.body = message.body.substring(0, quote);
       }
       translateString(message.subject, "#subject");
-      translateString(REGEXP_REPLACE(message.body, r"<[^.]*>", ""), "#message", true);
+      translateString(message.body, "#message", true);
     }
   }
 
