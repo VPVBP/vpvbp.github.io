@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>VantageBP</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google Font -->
+    <link href="VantageBP_files/css.css" rel="stylesheet">
+    <link rel="stylesheet" href="VantageBP_files/css_002.css">
+    <link rel="stylesheet" href="VantageBP_files/rpu0fcc.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="https://client.vantagebp.com/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://client.vantagebp.com/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://client.vantagebp.com/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://client.vantagebp.com/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://client.vantagebp.com/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://client.vantagebp.com/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://client.vantagebp.com/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://client.vantagebp.com/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://client.vantagebp.com/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://client.vantagebp.com/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://client.vantagebp.com/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://client.vantagebp.com/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://client.vantagebp.com/favicon-16x16.png">
+    <link rel="manifest" href="https://client.vantagebp.com/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    
+<meta name="uabide/config/environment" content="%7B%22modulePrefix%22%3A%22uabide%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22/%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%7D%2C%22APP%22%3A%7B%22name%22%3A%22uabide%22%2C%22version%22%3A%220.0.0+c2f84a51%22%7D%2C%22exportApplicationGlobal%22%3Afalse%2C%22ember-modal-dialog%22%3A%7B%7D%7D">
+
+    <link integrity="" rel="stylesheet" href="VantageBP_files/vendor-960a0ec550f9b55898a7b0705bc36aa4.css">
+    <link integrity="" rel="stylesheet" href="VantageBP_files/uabide-ab0b91892e4a25059e60b2be8aa4cda7.css">
+    <script type="text/javascript" async="" src="VantageBP_files/shim.latest.js"></script><script src="VantageBP_files/pdf.js"></script>
+    
+  <script>
+    // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/eaaj6q21'
+    (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/eaaj6q21';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+  </script><style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}</style></head>
+  
+  <body class="ember-application">
+    
+
+    <script src="VantageBP_files/vendor-fe43de005956e136fe69e67e400047e1.js" integrity="sha256-ZmHKoHuOKbAriJaOwqrGazQOwc86+9fDyxQMS1IdAzA= sha512-Vk9d49R/gdhIX2KSnsDqQtmLAVF93pbhCakrg3RZO+h46E69D9VgcP5zKalGwQIHeIa74SvQd004mpp8wLna5w=="></script>
+    <script src="VantageBP_files/uabide-29637d846120d9038fe85c9bd3d37280.js" integrity="sha256-hGkSQ1N1PuciCp8k2tJjIIrEklSEcq9EHmlLFeRk8N8= sha512-PGK/kOjpPiJndHTNHZA/LnE3NHujkZ7E2mdKTcKIHHNc0jsNGnTzMdr3T2sOFG8/rU/WIameZmNAvQQ9SCynZA=="></script>
+
+    <!--<script src="/js/main.min.js"></script>-->
+    <div id="ember-basic-dropdown-wormhole"></div>
+
+  
+
+<div id="modal-overlays"></div><div id="ember263" class="ember-view"><div class="o-page">
+  <!--[if lte IE 9]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a
+    href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- SIDEBAR -->
+  <div id="ember302" class="ember-view"><div class="o-page__sidebar js-page-sidebar">
+  <div class="c-sidebar">
+    <div class="c-sidebar__body">
+      <a href="#" class="c-sidebar__brand">
+        <!-- <img class="c-sidebar__brand-img" src="img/vantagebp_xmas_logo-7ca55cf59b902a826bbebaaaf660166d.png" alt="Logo">-->
+        <img src="VantageBP_files/VantageBPIcon-5bf884e1e831c6f91461cbb15498dc7e.png" alt="Logo" class="c-sidebar__brand-img">
+        <!-- <img class="c-sidebar__brand-imgV2" src="img/Logo_v2-f7551c07303ccc2b252f3e1d68bf3df2.png" alt="Logo">-->
+      </a>
+
+      <h4 class="c-sidebar__title">Dashboard</h4>
+
+      <ul class="c-sidebar__list">
+        <li class="c-sidebar__item">
+<a href="https://client.vantagebp.com/" id="ember305" class="c-sidebar__link ember-view">            <i class="fa fa-tachometer u-mr-xsmall"></i>Overview
+</a>        </li>
+
+        <li class="c-sidebar__item">
+<a href="https://client.vantagebp.com/listings" id="ember316" class="c-sidebar__link ember-view">            <i class="fa fa-list-alt u-mr-xsmall"></i>Listings
+</a>        </li>
+
+        <li class="c-sidebar__item">
+<a href="https://client.vantagebp.com/sellers" id="ember325" class="c-sidebar__link active ember-view">            <i class="fa fa-user u-mr-xsmall"></i>Sellers
+</a>        </li>
+<!---->      </ul>
+
+          <h4 class="c-sidebar__title">Admin</h4>
+
+          <ul class="c-sidebar__list">
+            <li class="c-sidebar__item">
+<a href="https://client.vantagebp.com/account" id="ember450" class="c-sidebar__link ember-view">                <i class="fa fa-tachometer u-mr-xsmall"></i>Accounts
+</a>            <li class="c-sidebar__item">
+<a href="https://client.vantagebp.com/crawls" id="ember459" class="c-sidebar__link ember-view">                <i class="fa fa-tachometer u-mr-xsmall"></i>Assets
+</a>            </li>
+            <li class="c-sidebar__item">
+<a href="https://client.vantagebp.com/leads" id="ember468" class="c-sidebar__link ember-view">                <i class="fa fa-tachometer u-mr-xsmall"></i>Leads
+</a>            </li>
+            <li class="c-sidebar__item">
+<a href="https://client.vantagebp.com/numbers" id="ember477" class="c-sidebar__link ember-view">                <i class="fa fa-tachometer u-mr-xsmall"></i>Phone Numbers
+</a>            </li>
+            <li class="c-sidebar__item">
+<a href="https://client.vantagebp.com/seller-white-list" id="ember486" class="c-sidebar__link ember-view">                <i class="fa fa-tachometer u-mr-xsmall"></i>Sellers White List
+</a>            </li>
+                <li class="c-sidebar__item">
+                  <a href="#" class="c-sidebar__link" data-ember-action="" data-ember-action-494="494">
+                    <i class="fa fa-tachometer u-mr-xsmall"></i>Turbo Off
+                  </a>
+                </li>
+            </li>
+          </ul>
+
+      <h4 class="c-sidebar__title">Account</h4>
+
+      <ul class="c-sidebar__list">
+        <li class="c-sidebar__item">
+          <a href="#" class="c-sidebar__link" data-ember-action="" data-ember-action-326="326">
+            <i class="fa fa-sign-in u-mr-xsmall"></i>Logout
+          </a>
+        </li>
+          <li class="c-sidebar__item">
+            <a href="#" class="c-sidebar__link" data-ember-action="" data-ember-action-327="327">
+              <i class="fa fa-sign-in u-mr-xsmall"></i>Admin
+            </a>
+          </li>
+          <li class="c-sidebar__item">
+<a href="https://client.vantagebp.com/map/overview" id="ember328" class="c-sidebar__link ember-view">              <i class="fa fa-sign-in u-mr-xsmall"></i> Change to MAP Protection
+</a>          </li>
+      </ul>
+    </div>
+
+    <div class="c-sidebar__footer">
+      <!--    <img src="img/VantageBPLogo-01-ab12b8ca9202a7ce5d28345d049eb743.png" alt="Dashboard's Logo" class="sideBarLogoImage">-->
+      <img src="VantageBP_files/Logo_v2-f7551c07303ccc2b252f3e1d68bf3df2.png" alt="Dashboard's Logo" class="sideBarLogoImage2">
+    </div>
+  </div><!-- // .c-sidebar -->
+</div><!-- // .o-page__sidebar -->
+</div>
+
+  <main class="o-page__content">
+    <header class="c-navbar u-mb-medium">
+      <button class="c-sidebar-toggle u-mr-small">
+        <span class="c-sidebar-toggle__bar"></span>
+        <span class="c-sidebar-toggle__bar"></span>
+        <span class="c-sidebar-toggle__bar"></span>
+      </button><!-- // .c-sidebar-toggle -->
+
+      <h2 class="c-navbar__title u-mr-auto">
+        <div class="topIntroWidth"></div>
+      </h2>
+
+
+      <div class="c-dropdown dropdown"></div>
+
+      <!--<div class="c-dropdown u-hidden-down@mobile">-->
+      <!--<a class="c-notification dropdown-toggle" href="#" id="dropdownMenuUser" data-toggle="dropdown"-->
+      <!--aria-haspopup="true" aria-expanded="false">-->
+      <!--<span class="c-notification__icon">-->
+      <!--<i class="fa fa-user-o"></i>-->
+      <!--</span>-->
+      <!--<span class="c-notification__number">3</span>-->
+      <!--</a>-->
+
+      <!--<div class="c-dropdown__menu c-dropdown__menu--large dropdown-menu dropdown-menu-right"-->
+      <!--aria-labelledby="dropdownMenuUser">-->
+      <!--<a href="#" class="c-dropdown__item dropdown-item o-media">-->
+      <!--<span class="o-media__img u-mr-xsmall">-->
+      <!--<span class="c-avatar c-avatar--xsmall">-->
+      <!--<img class="c-avatar__img" src="img/avatar-72-d1d04386694698ceb72c3b0b9256ad2b.jpg" alt="User's Profile Picture">-->
+      <!--</span>-->
+      <!--</span>-->
+      <!--<div class="o-media__body">-->
+      <!--<h6 class="u-mb-zero">Someone mentioned you</h6>-->
+      <!--<p class="u-text-mute">You have recieved a mention on twitter, check it out!</p>-->
+      <!--</div>-->
+      <!--</a>-->
+      <!--<a href="#" class="c-dropdown__item dropdown-item o-media">-->
+      <!--<span class="o-media__img u-mr-xsmall">-->
+      <!--<span class="c-avatar c-avatar--xsmall">-->
+      <!--<img class="c-avatar__img" src="img/avatar2-72-ef491c126a366106fd97b532813f3335.jpg" alt="User's Profile Picture">-->
+      <!--</span>-->
+      <!--</span>-->
+      <!--<div class="o-media__body">-->
+      <!--<h6 class="u-mb-zero">Recieved a Payment</h6>-->
+      <!--<p class="u-text-mute">You have recieved a mention on twitter, check it out!</p>-->
+      <!--</div>-->
+      <!--</a>-->
+      <!--<a href="#" class="c-dropdown__item dropdown-item o-media">-->
+      <!--<span class="o-media__img u-mr-xsmall">-->
+      <!--<span class="c-avatar c-avatar--xsmall">-->
+      <!--<img class="c-avatar__img" src="img/avatar4-72-ce664edbb7130d20b3aeebf8f658e9cb.jpg" alt="User's Profile Picture">-->
+      <!--</span>-->
+      <!--</span>-->
+      <!--<div class="o-media__body">-->
+      <!--<h6 class="u-mb-zero">You got a promotion</h6>-->
+      <!--<p class="u-text-mute">You have recieved a mention on twitter, check it out!</p>-->
+      <!--</div>-->
+      <!--</a>-->
+      <!--</div>-->
+      <!--</div>-->
+
+      <!--<div class="c-dropdown dropdown u-mr-medium u-ml-small u-hidden-down@mobile">-->
+      <!--<a class="c-notification dropdown-toggle" href="#" id="dropdownMenuAlerts" data-toggle="dropdown"-->
+      <!--aria-haspopup="true" aria-expanded="false">-->
+      <!--<span class="c-notification__icon">-->
+      <!--<i class="fa fa-bell-o"></i>-->
+      <!--</span>-->
+      <!--<span class="c-notification__number">3</span>-->
+      <!--</a>-->
+
+      <!--<div class="c-dropdown__menu c-dropdown__menu--large dropdown-menu dropdown-menu-right"-->
+      <!--aria-labelledby="dropdownMenuAlerts">-->
+      <!--<a href="#" class="c-dropdown__item dropdown-item o-media">-->
+      <!--<span class="o-media__img u-mr-xsmall">-->
+      <!--<span class="c-avatar c-avatar--xsmall">-->
+      <!--<span-->
+      <!--class="c-avatar__img u-bg-success u-flex u-justify-center u-align-items-center">-->
+      <!--<i class="fa fa-check u-text-large u-color-white"></i>-->
+      <!--</span>-->
+      <!--</span>-->
+
+      <!--</span>-->
+      <!--<div class="o-media__body">-->
+      <!--<h6 class="u-mb-zero">Completed a task</h6>-->
+      <!--<p class="u-text-mute">You have recieved a mention on twitter, check it out!</p>-->
+      <!--</div>-->
+      <!--</a>-->
+
+      <!--<a href="#" class="c-dropdown__item dropdown-item o-media">-->
+      <!--<span class="o-media__img u-mr-xsmall">-->
+      <!--<span class="c-avatar c-avatar--xsmall">-->
+      <!--<span class="c-avatar__img u-bg-fancy u-flex u-justify-center u-align-items-center">-->
+      <!--<i class="fa fa-calendar u-text-large u-color-white"></i>-->
+      <!--</span>-->
+      <!--</span>-->
+
+      <!--</span>-->
+      <!--<div class="o-media__body">-->
+      <!--<h6 class="u-mb-zero">Company meetup</h6>-->
+      <!--<p class="u-text-mute">You have recieved a mention on twitter, check it out!</p>-->
+      <!--</div>-->
+      <!--</a>-->
+      <!--<a href="#" class="c-dropdown__item dropdown-item o-media">-->
+      <!--<span class="o-media__img u-mr-xsmall">-->
+      <!--<span class="c-avatar c-avatar--xsmall">-->
+      <!--<span-->
+      <!--class="c-avatar__img u-bg-primary u-flex u-justify-center u-align-items-center">-->
+      <!--<i class="fa fa-info u-text-large u-color-white"></i>-->
+      <!--</span>-->
+      <!--</span>-->
+
+      <!--</span>-->
+      <!--<div class="o-media__body">-->
+      <!--<h6 class="u-mb-zero">Someone mentioned you</h6>-->
+      <!--<p class="u-text-mute">You have recieved a mention on twitter, check it out!</p>-->
+      <!--</div>-->
+      <!--</a>-->
+      <!--</div>-->
+      <!--</div>-->
+
+      <div class="c-dropdown dropdown">
+        <h2 class="c-navbar__title_left_side u-mr-auto">Reebok (Lucky 21)</h2>
+
+        <a href="#" id="dropdwonMenuAvatar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="c-avatar c-avatar--xsmall ">
+            <img src="VantageBP_files/c0266be35d6cc10710838dbbf3fbc8e1_photo.jpg" alt="" class="c-avatar__img c-avatar__img--cover">
+        </a>
+        <div aria-labelledby="dropdwonMenuAvatar" class="c-dropdown__menu dropdown-menu dropdown-menu-right">
+          <!--<a class="c-dropdown__item dropdown-item" href="#">Edit Profile</a>-->
+          <!--<a class="c-dropdown__item dropdown-item" href="#">View Activity</a>-->
+          <!--<a class="c-dropdown__item dropdown-item" href="#">Manage Roles</a>-->
+        </div>
+      </div>
+    </header>
+
+    <!--main content starts here-->
+    <div class="container-fluid sellers-page">
+        <div class="row u-mb-large">
+          <div class="col-sm-12">
+
+            <div style="overflow-x:auto;">
+              <table class="c-table u-mb-small sticky-table-head sellers-table">
+                <caption class="sellers-table__caption">
+                  <div class="sellers-table__caption__section sellers-table__caption--top">
+                    <div class="c-table__title">
+                      TOTAL SELLERS
+                      <small>1</small>
+                    </div>
+
+                    <div class="sellers-table__filters">
+                      <div class="sellers-table__filter">
+                        <a href="#!" data-ember-action="" data-ember-action-1890="1890">
+                          <span class="c-btn c-btn--secondary">Download</span>
+                        </a>
+                      </div>
+
+                      <div class="sellers-table__filter">
+                        <div class="c-field has-icon-right c-navbar__search u-hidden-down@tablet u-ml-auto">
+                          <span class="c-field__icon">
+                            <i class="fa fa-search"></i>
+                          </span>
+
+                          <label for="navbar-search" class="u-hidden-visually">Search</label>
+                          <input type="text" placeholder="Search" id="navbar-search" class="c-input  ember-text-field ember-view" value="Cookie's Snoop Shop">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="sellers-table__caption__section">
+                    <div class="sellers-table__filters">
+<!---->
+<div aria-owns="ember-basic-dropdown-content-ember1891" tabindex="0" data-ebd-id="ember1891-trigger" role="button" id="ember1892" class="c-btn c-btn--secondary sellers-table__filter has-dropdown sellers-table__filter ember-basic-dropdown-trigger ember-view">                          Filter By Status
+</div>  <div id="ember-basic-dropdown-content-ember1891" style="display: none;" class="ember-basic-dropdown-content-placeholder"></div>
+
+
+
+<div aria-owns="ember-basic-dropdown-content-ember1894" tabindex="0" data-ebd-id="ember1894-trigger" role="button" id="ember1895" class="c-btn c-btn--secondary sellers-table__filter has-dropdown sellers-table__filter ember-basic-dropdown-trigger ember-view">                          Filter By Marketplace
+</div>  <div id="ember-basic-dropdown-content-ember1894" style="display: none;" class="ember-basic-dropdown-content-placeholder"></div>
+
+
+
+
+<div aria-owns="ember-basic-dropdown-content-ember1897" tabindex="0" data-ebd-id="ember1897-trigger" role="button" id="ember1898" class="c-btn c-btn--secondary sellers-table__filter has-dropdown sellers-table__filter ember-basic-dropdown-trigger ember-view">                              Filter By Number Of Listings
+</div>  <div id="ember-basic-dropdown-content-ember1897" style="display: none;" class="ember-basic-dropdown-content-placeholder"></div>
+
+
+
+
+<div aria-owns="ember-basic-dropdown-content-ember1900" tabindex="0" data-ebd-id="ember1900-trigger" role="button" id="ember1901" class="c-btn c-btn--secondary sellers-table__filter has-dropdown sellers-table__filter ember-basic-dropdown-trigger ember-view">                              Filter By Number Of Days
+</div>  <div id="ember-basic-dropdown-content-ember1900" style="display: none;" class="ember-basic-dropdown-content-placeholder"></div>
+
+
+                      <a href="#" class="sellers-table__filter" data-ember-action="" data-ember-action-1903="1903">
+                        <span class="c-btn c-btn--secondary">More Filters</span>
+                      </a>
+
+
+
+
+                      <a href="#" class="sellers-table__filter" data-ember-action="" data-ember-action-1904="1904">
+                        <span class="c-btn c-btn--secondary">Reset</span>
+                      </a>
+
+                      <a href="#" class="sellers-table__filter" data-ember-action="" data-ember-action-1905="1905">
+                        <span class="c-btn c-btn--secondary">Show Filters</span>
+                      </a>
+                    </div>
+                  </div>
+                </caption>
+
+                <thead class="c-table__head c-table__head--slim sellers-table__header">
+                <tr class="c-table__row">
+                    <th class="c-table__cell c-table__cell--head">Check All</th>
+                    <th class="c-table__cell c-table__cell--head">
+                      <div class="c-choice c-choice--checkbox">
+                        <input type="checkbox" id="checkbox-green" name="greenCheckbox" data-ember-action="" data-ember-action-1906="1906">
+                      </div>
+                    </th>
+
+                  <th class="c-table__cell c-table__cell--head"><a href="#" data-ember-action="" data-ember-action-1907="1907">Status</a></th>
+                  <th class="c-table__cell c-table__cell--head"><a href="#" data-ember-action="" data-ember-action-1908="1908">Name</a>
+                  </th>
+
+                      <th class="c-table__cell c-table__cell--head">Sub Statuses</th>
+                  <th class="c-table__cell c-table__cell--head"><a href="#" data-ember-action="" data-ember-action-1909="1909">Platform</a>
+                  </th>
+                  <th class="c-table__cell underlineClass c-table__cell--head"><a href="#" data-ember-action="" data-ember-action-1910="1910">Number
+                    Of Listings</a></th>
+                  <th class="c-table__cell c-table__cell--head"><a href="#" data-ember-action="" data-ember-action-1911="1911">Status
+                    Updated</a></th>
+                  <!--<th class="c-table__cell c-table__cell--head">Status Updated</th>-->
+                  <th class="c-table__cell c-table__cell--head">Invoice</th>
+                  <th class="c-table__cell c-table__cell--head">Info</th>
+                      <th class="c-table__cell c-table__cell--head">Stage</th>
+                      <th class="c-table__cell c-table__cell--head">Scheduled</th>
+                </tr>
+
+                </thead>
+
+
+                <tbody class="sellers-table__body">
+
+
+                    <tr class="c-table__row">
+                        <td class="c-table__cell">1
+                        </td>
+                        <td class="c-table__cell">
+                          <div class="c-choice c-choice--checkbox">
+                            <input type="checkbox" id="checkbox-green" name="greenCheckbox" data-ember-action="" data-ember-action-1913="1913"> Select
+                          </div>
+                        </td>
+
+                      <td class="c-table__cell"><span class="c-badge c-btn--warning">Review</span><br>
+                        Need Info
+                      </td>
+                      <td class="c-table__cell c-table__cell__title">
+                        <a target="_blank" href="https://www.amazon.com/gp/aag/main?ie=UTF8&amp;seller=A1O3JM9NSN12B4&amp;isAmazonFulfilled=0&amp;asin=B07T9RQVBV&amp;ref_=olp_merch_name_2">Cookie's Snoop Shop</a>
+                      </td>
+                          <td class="c-table__cell">
+                            <div id="ember1914" class="ember-view"><div class="sub-statuses-cell">
+    <div class="sub-statuses__icon sub-statuses__icon--blank"></div>
+      <div class="sub-statuses__icon sub-statuses__icon--blank"></div>
+    <div class="sub-statuses__icon sub-statuses__icon--blank"></div>
+</div>
+</div>
+                          </td>
+                      <td class="c-table__cell"><img src="VantageBP_files/Amazon_United%20States-1cd6a07e457d6367d961726dc8f9d033.png" alt="Image" class="sizeToFitImage">
+                      </td>
+                      <td class="c-table__cell">15
+                      </td>
+                      <td class="c-table__cell">2022-07-15
+                      </td>
+                        <td class="c-table__cell"><a target="_blank" href="https://drive.google.com/drive/folders/1GKqz5IAwBAjN-QgmVLFFC2kTQpb_sPDH?usp=sharing">Download Invoice</a>
+                        </td>
+                      <td class="c-table__cell">
+                        <div class="c-dropdown dropdown">
+<div aria-owns="ember-basic-dropdown-content-ember1915" tabindex="0" data-ebd-id="ember1915-trigger" role="button" id="ember1916" class="c-btn c-btn--secondary has-dropdown dropdown-toggle ember-basic-dropdown-trigger ember-view">                              view<span class="caret"></span></div>
+
+  <div id="ember-basic-dropdown-content-ember1915" style="display: none;" class="ember-basic-dropdown-content-placeholder"></div>
+
+
+                        </div>
+                      </td>
+                          <td class="c-table__cell">
+
+                          <span class="c-badge c-btn--stage">notice 1</span>
+                            <br>
+                              <div class="c-table__cell__stage-date">
+                                2022-07-07
+                              </div>
+                          </td>
+                          <td class="c-table__cell">
+
+                          <span class="c-badge ">false</span>
+                          </td>
+                    </tr>
+                  <div id="ember1918" class="ember-view"></div>
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+    </div><!-- // .container -->
+
+  </main><!-- // .o-page__content -->
+
+</div>
+<div id="discoverySpinner" class="ember-view"><!----></div>
+
+<div id="ember398" class="ember-view"></div>
+
+<!---->
+
+
+
+<!---->
+
+
+
+<!---->
+
+
+<!---->
+<!---->
+
+<div data-test-notification-container="top" style="z-index: 2147483647;" id="ember419" class="_c-notification__container--top_rc8i2a _c-notification__container_rc8i2a ember-view"><!----></div>
+
+<div id="ember422" class="ember-view">  <div id="ember424" class="ember-view"><!----></div>
+  <div id="ember426" class="ember-view"><!----></div>
+  <div id="ember430" class="ember-view"><!----></div>
+  <div id="ember434" class="ember-view"><!----></div>
+  <div id="ember436" class="ember-view"><!----></div>
+  <div id="ember438" class="ember-view"><!----></div>
+  <div id="ember440" class="ember-view"><!----></div>
+  <div id="ember444" class="ember-view"><!----></div>
+</div>
+
+<script>
+  Parse.initialize("bzn8msayuASvFwWDJEY3DdGYDXb7eV9rweY2rr7o", "fRmOrMDotozW5iYypZ9s73yADQP3MiKmbIhQxXGw");
+  Parse.serverURL = 'https://uabide.back4app.io/';
+  var currentUser = Parse.User.current();
+  if (currentUser) {
+    let email = currentUser.get("email");
+    let createdAt = currentUser.createdAt;
+    window.Intercom('boot', {
+      app_id: 'eaaj6q21',
+      email: email,
+      user_id: email,
+      created_at: createdAt,
+      custom_launcher_selector: '#my_custom_link'
+    });
+    //   window.intercomSettings = {
+    //     app_id: "eaaj6q21",
+    //     name: JSON.stringify(email),
+    //     email: JSON.stringify(email),
+    //     created_at: createdAt
+    // }
+  }
+</script>
+</div><iframe id="intercom-frame" style="position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0 !important; left: 0 !important; border: none !important; display: block !important; z-index: -1 !important; pointer-events: none;" aria-hidden="true" tabindex="-1" title="Intercom"></iframe><div class="intercom-lightweight-app"><div class="intercom-lightweight-app-launcher intercom-launcher" role="button" tabindex="0" aria-label="Open Intercom Messenger" aria-live="polite"><div class="intercom-lightweight-app-launcher-icon intercom-lightweight-app-launcher-icon-open"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 32"><path d="M28 32s-4.714-1.855-8.527-3.34H3.437C1.54 28.66 0 27.026 0 25.013V3.644C0 1.633 1.54 0 3.437 0h21.125c1.898 0 3.437 1.632 3.437 3.645v18.404H28V32zm-4.139-11.982a.88.88 0 00-1.292-.105c-.03.026-3.015 2.681-8.57 2.681-5.486 0-8.517-2.636-8.571-2.684a.88.88 0 00-1.29.107 1.01 1.01 0 00-.219.708.992.992 0 00.318.664c.142.128 3.537 3.15 9.762 3.15 6.226 0 9.621-3.022 9.763-3.15a.992.992 0 00.317-.664 1.01 1.01 0 00-.218-.707z"></path></svg></div><div class="intercom-lightweight-app-launcher-icon intercom-lightweight-app-launcher-icon-minimize"><svg viewBox="0 0 16 14" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M.116 4.884l1.768-1.768L8 9.232l6.116-6.116 1.768 1.768L8 12.768.116 4.884z"></path></svg></div></div><style id="intercom-lightweight-app-style" type="text/css">
+  @keyframes intercom-lightweight-app-launcher {
+    from {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @keyframes intercom-lightweight-app-gradient {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes intercom-lightweight-app-messenger {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .intercom-lightweight-app {
+    position: fixed;
+    z-index: 2147483001;
+    width: 0;
+    height: 0;
+    font-family: intercom-font, "Helvetica Neue", "Apple Color Emoji", Helvetica, Arial, sans-serif;
+  }
+
+  .intercom-lightweight-app-gradient {
+    position: fixed;
+    z-index: 2147483002;
+    width: 500px;
+    height: 500px;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+    background: radial-gradient(
+      ellipse at bottom right,
+      rgba(29, 39, 54, 0.16) 0%,
+      rgba(29, 39, 54, 0) 72%);
+    animation: intercom-lightweight-app-gradient 200ms ease-out;
+  }
+
+  .intercom-lightweight-app-launcher {
+    position: fixed;
+    z-index: 2147483003;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #004FA3;
+    cursor: pointer;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.06), 0 2px 32px 0 rgba(0, 0, 0, 0.16);
+    animation: intercom-lightweight-app-launcher 250ms ease;
+  }
+
+  .intercom-lightweight-app-launcher:focus {
+    outline: none;
+    
+  }
+
+  .intercom-lightweight-app-launcher-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    transition: transform 100ms linear, opacity 80ms linear;
+  }
+
+  .intercom-lightweight-app-launcher-icon-open {
+    
+        opacity: 1;
+        transform: rotate(0deg) scale(1);
+      
+  }
+
+  .intercom-lightweight-app-launcher-icon-open svg {
+    width: 28px;
+    height: 32px;
+  }
+
+  .intercom-lightweight-app-launcher-icon-open svg path {
+    fill: rgb(255, 255, 255);
+  }
+
+  .intercom-lightweight-app-launcher-icon-self-serve {
+    
+        opacity: 1;
+        transform: rotate(0deg) scale(1);
+      
+  }
+
+  .intercom-lightweight-app-launcher-icon-self-serve svg {
+    height: 56px;
+  }
+
+  .intercom-lightweight-app-launcher-icon-self-serve svg path {
+    fill: rgb(255, 255, 255);
+  }
+
+  .intercom-lightweight-app-launcher-custom-icon-open {
+    max-height: 36px;
+    max-width: 36px;
+    
+        opacity: 1;
+        transform: rotate(0deg) scale(1);
+      
+  }
+
+  .intercom-lightweight-app-launcher-icon-minimize {
+    
+        opacity: 0;
+        transform: rotate(-60deg) scale(0);
+      
+  }
+
+  .intercom-lightweight-app-launcher-icon-minimize svg {
+    width: 16px;
+  }
+
+  .intercom-lightweight-app-launcher-icon-minimize svg path {
+    fill: rgb(255, 255, 255);
+  }
+
+  .intercom-lightweight-app-messenger {
+    position: fixed;
+    z-index: 2147483003;
+    overflow: hidden;
+    background-color: white;
+    animation: intercom-lightweight-app-messenger 250ms ease-out;
+    
+        width: 376px;
+        height: calc(100% - 120px);
+        max-height: 704px;
+        min-height: 250px;
+        right: 20px;
+        bottom: 100px;
+        box-shadow: 0 5px 40px rgba(0,0,0,0.16);
+        border-radius: 8px;
+      
+  }
+
+  .intercom-lightweight-app-messenger-header {
+    height: 75px;
+    background: linear-gradient(
+          135deg,
+          rgb(0, 79, 163) 0%,
+          rgb(0, 30, 61) 100%
+        );
+  }
+
+  .intercom-lightweight-app-messenger-footer{
+    position:absolute; 
+    bottom:0;
+    width: 100%;
+    min-height: 95px;
+    background: #fff;
+    font-size: 14px;
+    line-height: 21px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+  }
+
+  @media print {
+    .intercom-lightweight-app {
+      display: none;
+    }
+  }
+</style></div></body></html>
